@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464182411ADBCE0B006CD89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464182401ADBCE0B006CD89E /* AppDelegate.swift */; };
+		464182431ADBCE0B006CD89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464182421ADBCE0B006CD89E /* ViewController.swift */; };
+		464182451ADBCE0B006CD89E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464182441ADBCE0B006CD89E /* Images.xcassets */; };
+		464182481ADBCE0B006CD89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464182461ADBCE0B006CD89E /* Main.storyboard */; };
+		464182541ADBCE0B006CD89E /* HipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464182531ADBCE0B006CD89E /* HipsterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4641824E1ADBCE0B006CD89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464182331ADBCE0B006CD89E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4641823A1ADBCE0B006CD89E;
+			remoteInfo = Hipster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4641823B1ADBCE0B006CD89E /* Hipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4641823F1ADBCE0B006CD89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464182401ADBCE0B006CD89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		464182421ADBCE0B006CD89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		464182441ADBCE0B006CD89E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		464182471ADBCE0B006CD89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4641824D1ADBCE0B006CD89E /* HipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464182521ADBCE0B006CD89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464182531ADBCE0B006CD89E /* HipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HipsterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464182381ADBCE0B006CD89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4641824A1ADBCE0B006CD89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464182321ADBCE0B006CD89E = {
+			isa = PBXGroup;
+			children = (
+				4641823D1ADBCE0B006CD89E /* Hipster */,
+				464182501ADBCE0B006CD89E /* HipsterTests */,
+				4641823C1ADBCE0B006CD89E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4641823C1ADBCE0B006CD89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4641823B1ADBCE0B006CD89E /* Hipster.app */,
+				4641824D1ADBCE0B006CD89E /* HipsterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4641823D1ADBCE0B006CD89E /* Hipster */ = {
+			isa = PBXGroup;
+			children = (
+				464182401ADBCE0B006CD89E /* AppDelegate.swift */,
+				464182421ADBCE0B006CD89E /* ViewController.swift */,
+				464182441ADBCE0B006CD89E /* Images.xcassets */,
+				464182461ADBCE0B006CD89E /* Main.storyboard */,
+				4641823E1ADBCE0B006CD89E /* Supporting Files */,
+			);
+			path = Hipster;
+			sourceTree = "<group>";
+		};
+		4641823E1ADBCE0B006CD89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4641823F1ADBCE0B006CD89E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		464182501ADBCE0B006CD89E /* HipsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				464182531ADBCE0B006CD89E /* HipsterTests.swift */,
+				464182511ADBCE0B006CD89E /* Supporting Files */,
+			);
+			path = HipsterTests;
+			sourceTree = "<group>";
+		};
+		464182511ADBCE0B006CD89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				464182521ADBCE0B006CD89E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4641823A1ADBCE0B006CD89E /* Hipster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464182571ADBCE0B006CD89E /* Build configuration list for PBXNativeTarget "Hipster" */;
+			buildPhases = (
+				464182371ADBCE0B006CD89E /* Sources */,
+				464182381ADBCE0B006CD89E /* Frameworks */,
+				464182391ADBCE0B006CD89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hipster;
+			productName = Hipster;
+			productReference = 4641823B1ADBCE0B006CD89E /* Hipster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4641824C1ADBCE0B006CD89E /* HipsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4641825A1ADBCE0B006CD89E /* Build configuration list for PBXNativeTarget "HipsterTests" */;
+			buildPhases = (
+				464182491ADBCE0B006CD89E /* Sources */,
+				4641824A1ADBCE0B006CD89E /* Frameworks */,
+				4641824B1ADBCE0B006CD89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4641824F1ADBCE0B006CD89E /* PBXTargetDependency */,
+			);
+			name = HipsterTests;
+			productName = HipsterTests;
+			productReference = 4641824D1ADBCE0B006CD89E /* HipsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464182331ADBCE0B006CD89E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Moshe Berman";
+				TargetAttributes = {
+					4641823A1ADBCE0B006CD89E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4641824C1ADBCE0B006CD89E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4641823A1ADBCE0B006CD89E;
+					};
+				};
+			};
+			buildConfigurationList = 464182361ADBCE0B006CD89E /* Build configuration list for PBXProject "Hipster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464182321ADBCE0B006CD89E;
+			productRefGroup = 4641823C1ADBCE0B006CD89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4641823A1ADBCE0B006CD89E /* Hipster */,
+				4641824C1ADBCE0B006CD89E /* HipsterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464182391ADBCE0B006CD89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464182451ADBCE0B006CD89E /* Images.xcassets in Resources */,
+				464182481ADBCE0B006CD89E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4641824B1ADBCE0B006CD89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464182371ADBCE0B006CD89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464182431ADBCE0B006CD89E /* ViewController.swift in Sources */,
+				464182411ADBCE0B006CD89E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464182491ADBCE0B006CD89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464182541ADBCE0B006CD89E /* HipsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4641824F1ADBCE0B006CD89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4641823A1ADBCE0B006CD89E /* Hipster */;
+			targetProxy = 4641824E1ADBCE0B006CD89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		464182461ADBCE0B006CD89E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464182471ADBCE0B006CD89E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		464182551ADBCE0B006CD89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464182561ADBCE0B006CD89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		464182581ADBCE0B006CD89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hipster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		464182591ADBCE0B006CD89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hipster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4641825B1ADBCE0B006CD89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HipsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hipster.app/Contents/MacOS/Hipster";
+			};
+			name = Debug;
+		};
+		4641825C1ADBCE0B006CD89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HipsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hipster.app/Contents/MacOS/Hipster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464182361ADBCE0B006CD89E /* Build configuration list for PBXProject "Hipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464182551ADBCE0B006CD89E /* Debug */,
+				464182561ADBCE0B006CD89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464182571ADBCE0B006CD89E /* Build configuration list for PBXNativeTarget "Hipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464182581ADBCE0B006CD89E /* Debug */,
+				464182591ADBCE0B006CD89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4641825A1ADBCE0B006CD89E /* Build configuration list for PBXNativeTarget "HipsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4641825B1ADBCE0B006CD89E /* Debug */,
+				4641825C1ADBCE0B006CD89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464182331ADBCE0B006CD89E /* Project object */;
+}
