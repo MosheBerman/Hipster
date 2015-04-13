@@ -761,6 +761,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <segue destination="wnr-Vt-ln6" kind="sheet" id="Wel-Ye-35I"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mBx-Iw-Ttf">
                                 <rect key="frame" x="67" y="14" width="67" height="23"/>
@@ -796,7 +799,7 @@
             <objects>
                 <viewController id="G6P-bo-Erq" sceneMemberID="viewController">
                     <view key="view" id="wL4-Pp-LzC">
-                        <rect key="frame" x="0.0" y="0.0" width="452" height="65"/>
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="65"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JkZ-eG-dIk">
@@ -825,10 +828,58 @@
             </objects>
             <point key="canvasLocation" x="680" y="378.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="H3G-fy-bSA">
+            <objects>
+                <viewController id="wnr-Vt-ln6" sceneMemberID="viewController">
+                    <view key="view" id="ah8-Xb-rFr">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="98"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0kc-I7-qHp">
+                                <rect key="frame" x="67" y="61" width="348" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Are you sure you want to stop watching this repository?" id="3rh-aS-u3Q">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Tp-36-apb">
+                                <rect key="frame" x="13" y="45" width="48" height="48"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSCaution" id="xum-3Z-oZC"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LRt-kI-g8O">
+                                <rect key="frame" x="374" y="13" width="62" height="32"/>
+                                <buttonCell key="cell" type="push" title="Yes" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2dq-gm-aZA">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="E9C-uq-jOu">
+                                <rect key="frame" x="265" y="13" width="109" height="32"/>
+                                <buttonCell key="cell" type="push" title="No, Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="D46-81-mId">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LRt-kI-g8O" secondAttribute="bottom" constant="20" id="0rV-Kr-EHA"/>
+                            <constraint firstItem="LRt-kI-g8O" firstAttribute="leading" secondItem="E9C-uq-jOu" secondAttribute="trailing" constant="12" id="E5e-ov-IwY"/>
+                            <constraint firstAttribute="trailing" secondItem="LRt-kI-g8O" secondAttribute="trailing" constant="20" id="Zei-rc-ca3"/>
+                            <constraint firstItem="E9C-uq-jOu" firstAttribute="centerY" secondItem="LRt-kI-g8O" secondAttribute="centerY" id="tBM-7O-2To"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="MFn-kD-hRG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="679" y="541"/>
+        </scene>
     </scenes>
     <resources>
         <image name="GitHub" width="80" height="33"/>
         <image name="NSAddTemplate" width="11" height="11"/>
+        <image name="NSCaution" width="32" height="32"/>
         <image name="NSRemoveTemplate" width="11" height="11"/>
     </resources>
 </document>
