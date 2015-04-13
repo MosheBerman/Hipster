@@ -12,6 +12,7 @@
 		464182451ADBCE0B006CD89E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464182441ADBCE0B006CD89E /* Images.xcassets */; };
 		464182481ADBCE0B006CD89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464182461ADBCE0B006CD89E /* Main.storyboard */; };
 		464182541ADBCE0B006CD89E /* HipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464182531ADBCE0B006CD89E /* HipsterTests.swift */; };
+		4641825F1ADBCE4C006CD89E /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 4641825E1ADBCE4C006CD89E /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		4641824D1ADBCE0B006CD89E /* HipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		464182521ADBCE0B006CD89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464182531ADBCE0B006CD89E /* HipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HipsterTests.swift; sourceTree = "<group>"; };
+		4641825E1ADBCE4C006CD89E /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				464182401ADBCE0B006CD89E /* AppDelegate.swift */,
 				464182421ADBCE0B006CD89E /* ViewController.swift */,
+				4641825E1ADBCE4C006CD89E /* Readme.md */,
 				464182441ADBCE0B006CD89E /* Images.xcassets */,
 				464182461ADBCE0B006CD89E /* Main.storyboard */,
 				4641823E1ADBCE0B006CD89E /* Supporting Files */,
@@ -118,6 +121,7 @@
 			buildPhases = (
 				464182371ADBCE0B006CD89E /* Sources */,
 				464182381ADBCE0B006CD89E /* Frameworks */,
+				4641825D1ADBCE32006CD89E /* ShellScript */,
 				464182391ADBCE0B006CD89E /* Resources */,
 			);
 			buildRules = (
@@ -203,6 +207,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4641825D1ADBCE32006CD89E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Auto Increment Version Script\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		464182371ADBCE0B006CD89E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -210,6 +230,7 @@
 			files = (
 				464182431ADBCE0B006CD89E /* ViewController.swift in Sources */,
 				464182411ADBCE0B006CD89E /* AppDelegate.swift in Sources */,
+				4641825F1ADBCE4C006CD89E /* Readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
