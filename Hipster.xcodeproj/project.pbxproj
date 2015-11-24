@@ -157,6 +157,7 @@
 		464182331ADBCE0B006CD89E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Moshe Berman";
 				TargetAttributes = {
@@ -418,6 +419,7 @@
 				464182591ADBCE0B006CD89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4641825A1ADBCE0B006CD89E /* Build configuration list for PBXNativeTarget "HipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +428,7 @@
 				4641825C1ADBCE0B006CD89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
